@@ -1,0 +1,155 @@
+---
+title: "R Primeiros passos"
+author: "Felipe D Coutinho"
+date: "22/08/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+```
+
+## Introdução - Basico
+
+Esses são os primeiros codigos em R aprendidos durante o MBA em Inteligencia Artificial na FIAP 
+
+
+## Carregando uma variavel e verificando sua tipagem
+Carga de Variavel
+```{r}
+
+meunome <- "Felipe"
+idade <- 15
+sequencial <- c(1,2,3,4,5)
+```
+Verificação
+```{r}
+
+## String 
+str(meunome)  
+## Numeric
+str(idade) 
+## Vector
+str(sequencial)  
+```
+## Operadores
+
+Soma
+```{r}
+x <- 1+5
+print(x)
+```
+Subtração
+```{r}
+y <- 10-5
+print(y)
+```
+
+Multiplicação
+```{r}
+m <- 10*5
+print(m)
+```
+Divisão
+```{r}
+d <- 10;5
+print(d)
+```
+Exponenciação
+```{r}
+e <- 10^2
+print(e)
+
+```
+## Extruturas Condicionais
+
+IF
+```{r}
+if ( 10 > 5){
+  print("10 é maior que 5")
+}
+```
+IF ELSE
+```{r}
+if ( 10 == 5){
+  print("10 é igual 5")
+}else{
+  print("10 não é igual a 5")
+}
+```
+FOR
+```{r}
+meuVetor <- c(10,20,30,40,50);
+for (i in meuVetor){
+  print(i);
+}
+```
+## Funções
+Criando uma função
+```{r}
+
+funcaoSoma <- function(x1,x2) {
+  return(x1+x2)
+}
+```
+Executando a função
+```{r}
+
+print(funcaoSoma(5,5))
+```
+
+## Matrizes
+Criando uma matriz de uma sequenciais de 3 a 14, com 4 linhas e 3 colunas, ordenando os números por linha
+```{r}
+m <- matrix(c(3:14), nrow = 4, ncol=3, byrow = TRUE)
+print(m)
+```
+## Representação Grafica
+
+```{r cars}
+# Sumario da tabela cars
+summary(cars)
+
+# Correlação da coluna dist com a coluna speed
+print(cor(cars$dist, cars$speed))
+
+# Histograma da coluna dist da tabela
+hist(cars$dist)
+
+# Histograma da coluna speed da tabela
+hist(cars$speed)
+
+# Boxplot das colunas dist e speed
+boxplot(cars$dist)
+boxplot(cars$speed)
+
+# Plot da tabela cars com a regressão linear
+z <- lm(cars$dist ~ cars$speed, data = cars)
+plot(cars)
+abline(z)
+abline(coef = coef(z))
+
+```
+
+
+O grafico a seguir presenta que carros com velocidade até 10 percorrem a distância de por volta 30km. Já carros que ultrapassam 10 de velocidade tendem alcançar de 15 a 120 de distância
+
+
+```{r }
+p <- cars %>%
+  # Criando coluna "ate10" para velocidade <= 10 na tabela cars
+  mutate(ate10=cars$speed<=10) %>% 
+  ggplot(aes(x=speed, y= dist, color=ate10)) + geom_point(aes(size=dist))
+p
+```
+
+
+```{r}
+pairs(~cars$speed+cars$dist,data = cars, main = "Scatterplot Matrix")
+```
+
+
