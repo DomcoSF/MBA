@@ -1,0 +1,296 @@
+Ambiente 1
+
+C:\Users\Felipe\.conda\envs\DemonstracaoEnvironments\Env01\python.exe "D:/Program Files/Git/DemonstracaoEnvironments/Pacote01/main01.py"
+Olá, sou o pacote 01.
+Estou rodando sob a seguinte versão de Python:
+3.7.9 (default, Aug 31 2020, 17:10:11) [MSC v.1916 64 bit (AMD64)]
+Versão do numpy:
+1.17.0
+
+
+Modulos disponíveis:
+
+Please wait a moment while I gather a list of all available modules...
+
+Pacote01            _threading_local    glob                secrets
+Pacote02            _tkinter            gzip                select
+Pacote03            _tracemalloc        hashlib             selectors
+__future__          _warnings           heapq               setuptools
+_abc                _weakref            hmac                shelve
+_ast                _weakrefset         html                shlex
+_asyncio            _winapi             http                shutil
+_bisect             abc                 idlelib             signal
+_blake2             aifc                imaplib             site
+_bootlocale         antigravity         imghdr              smtpd
+_bz2                argparse            imp                 smtplib
+_codecs             array               importlib           sndhdr
+_codecs_cn          ast                 inspect             socket
+_codecs_hk          asynchat            io                  socketserver
+_codecs_iso2022     asyncio             ipaddress           sqlite3
+_codecs_jp          asyncore            itertools           sre_compile
+_codecs_kr          atexit              json                sre_constants
+_codecs_tw          audioop             keyword             sre_parse
+_collections        base64              lib2to3             ssl
+_collections_abc    bdb                 linecache           stat
+_compat_pickle      binascii            locale              statistics
+_compression        binhex              logging             string
+_contextvars        bisect              lzma                stringprep
+_csv                builtins            macpath             struct
+_ctypes             bz2                 mailbox             subprocess
+_ctypes_test        cProfile            mailcap             sunau
+_datetime           calendar            main01              symbol
+_decimal            certifi             marshal             symtable
+_distutils_hack     cgi                 math                sys
+_dummy_thread       cgitb               mimetypes           sysconfig
+_elementtree        chunk               mmap                tabnanny
+_functools          cmath               modulefinder        tarfile
+_hashlib            cmd                 msilib              telnetlib
+_heapq              code                msvcrt              tempfile
+_imp                codecs              multiprocessing     test
+_io                 codeop              netrc               textwrap
+_json               collections         nntplib             this
+_locale             colorsys            nt                  threading
+_lsprof             compileall          ntpath              time
+_lzma               concurrent          nturl2path          timeit
+_markupbase         configparser        numbers             tkinter
+_md5                contextlib          numpy               token
+_msi                contextvars         opcode              tokenize
+_multibytecodec     copy                operator            trace
+_multiprocessing    copyreg             optparse            traceback
+_opcode             crypt               os                  tracemalloc
+_operator           csv                 parser              tty
+_osx_support        ctypes              pathlib             turtle
+_overlapped         curses              pdb                 turtledemo
+_pickle             dataclasses         pickle              types
+_py_abc             datetime            pickletools         typing
+_pydecimal          dbm                 pip                 unicodedata
+_pyio               decimal             pipes               unittest
+_queue              difflib             pkg_resources       urllib
+_random             dis                 pkgutil             uu
+_sha1               distutils           platform            uuid
+_sha256             doctest             plistlib            venv
+_sha3               dummy_threading     poplib              warnings
+_sha512             email               posixpath           wave
+_signal             encodings           pprint              weakref
+_sitebuiltins       ensurepip           profile             webbrowser
+_socket             enum                pstats              wheel
+_sqlite3            errno               pty                 wincertstore
+_sre                faulthandler        py_compile          winreg
+_ssl                filecmp             pyclbr              winsound
+_stat               fileinput           pydoc               wsgiref
+_string             fnmatch             pydoc_data          xdrlib
+_strptime           formatter           pyexpat             xml
+_struct             fractions           queue               xmlrpc
+_symtable           ftplib              quopri              xxsubtype
+_testbuffer         functools           random              zipapp
+_testcapi           gc                  re                  zipfile
+_testconsole        genericpath         reprlib             zipimport
+_testimportmultiple getopt              rlcompleter         zlib
+_testmultiphase     getpass             runpy               
+_thread             gettext             sched               
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+Entrega de trabalho: Meu nome é [Felipe Domingos Coutinho]
+
+Process finished with exit code 0
+
+
+Ambiente 2
+C:\Users\Felipe\.conda\envs\DemonstracaoEnvironments\Env02\python.exe "D:/Program Files/Git/DemonstracaoEnvironments/Pacote02/main02.py"
+Ola, sou o pacote 02.
+Estou rodando sob a seguinte versao de Python:
+2.7.18 |Anaconda, Inc.| (default, Apr 23 2020, 17:26:54) [MSC v.1500 64 bit (AMD64)]
+Modulos disponiveis:
+
+Please wait a moment while I gather a list of all available modules...
+
+BaseHTTPServer      antigravity         imageop             sgmllib
+Bastion             anydbm              imaplib             sha
+CGIHTTPServer       argparse            imghdr              shelve
+Canvas              array               imp                 shlex
+ConfigParser        ast                 importlib           shutil
+Cookie              asynchat            imputil             signal
+Dialog              asyncore            inspect             site
+DocXMLRPCServer     atexit              io                  smtpd
+FileDialog          audiodev            itertools           smtplib
+FixTk               audioop             json                sndhdr
+HTMLParser          base64              keyword             socket
+MimeWriter          bdb                 lib2to3             sqlite3
+Pacote01            binascii            linecache           sre
+Pacote02            binhex              locale              sre_compile
+Pacote03            bisect              logging             sre_constants
+Queue               bsddb               macpath             sre_parse
+ScrolledText        bz2                 macurl2path         ssl
+SimpleDialog        cPickle             mailbox             stat
+SimpleHTTPServer    cProfile            mailcap             statvfs
+SimpleXMLRPCServer  cStringIO           main02              string
+SocketServer        calendar            markupbase          stringold
+StringIO            certifi             marshal             stringprep
+Tix                 cgi                 math                strop
+Tkconstants         cgitb               md5                 struct
+Tkdnd               chunk               mhlib               subprocess
+Tkinter             cmath               mimetools           sunau
+UserDict            cmd                 mimetypes           sunaudio
+UserList            code                mimify              symbol
+UserString          codecs              mmap                symtable
+_LWPCookieJar       codeop              modulefinder        sys
+_MozillaCookieJar   collections         msilib              sysconfig
+__builtin__         colorsys            msvcrt              tabnanny
+__future__          commands            multifile           tarfile
+_abcoll             compileall          multiprocessing     telnetlib
+_ast                compiler            mutex               tempfile
+_bisect             contextlib          netrc               test
+_bsddb              cookielib           new                 textwrap
+_codecs             copy                nntplib             this
+_codecs_cn          copy_reg            nt                  thread
+_codecs_hk          csv                 ntpath              threading
+_codecs_iso2022     ctypes              nturl2path          time
+_codecs_jp          curses              numbers             timeit
+_codecs_kr          datetime            numpy               tkColorChooser
+_codecs_tw          dbhash              opcode              tkCommonDialog
+_collections        decimal             operator            tkFileDialog
+_csv                difflib             optparse            tkFont
+_ctypes             dircache            os                  tkMessageBox
+_ctypes_test        dis                 os2emxpath          tkSimpleDialog
+_elementtree        distutils           parser              toaiff
+_functools          doctest             pdb                 token
+_hashlib            dumbdbm             pickle              tokenize
+_heapq              dummy_thread        pickletools         trace
+_hotshot            dummy_threading     pip                 traceback
+_io                 easy_install        pipes               ttk
+_json               email               pkg_resources       tty
+_locale             encodings           pkgutil             turtle
+_lsprof             ensurepip           platform            types
+_md5                errno               plistlib            unicodedata
+_msi                exceptions          popen2              unittest
+_multibytecodec     filecmp             poplib              urllib
+_multiprocessing    fileinput           posixfile           urllib2
+_osx_support        fnmatch             posixpath           urlparse
+_pyio               formatter           pprint              user
+_random             fpformat            profile             uu
+_sha                fractions           pstats              uuid
+_sha256             ftplib              pty                 warnings
+_sha512             functools           py_compile          wave
+_socket             future_builtins     pyclbr              weakref
+_sqlite3            gc                  pydoc               webbrowser
+_sre                genericpath         pydoc_data          wheel
+_ssl                getopt              pyexpat             whichdb
+_strptime           getpass             quopri              wincertstore
+_struct             gettext             random              winsound
+_subprocess         glob                re                  wsgiref
+_symtable           gzip                repr                xdrlib
+_testcapi           hashlib             rexec               xml
+_threading_local    heapq               rfc822              xmllib
+_tkinter            hmac                rlcompleter         xmlrpclib
+_warnings           hotshot             robotparser         xxsubtype
+_weakref            htmlentitydefs      runpy               zipfile
+_weakrefset         htmllib             sched               zipimport
+_winreg             httplib             select              zlib
+abc                 idlelib             sets                
+aifc                ihooks              setuptools          
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose descriptions contain the word "spam".
+
+
+Process finished with exit code 0
+
+Ambiente 3
+
+C:\Users\Felipe\.conda\envs\DemonstracaoEnvironments\env03\python.exe "D:/Program Files/Git/DemonstracaoEnvironments/Pacote03/main03.py"
+Olá, sou o pacote 03.
+Estou rodando sob a seguinte versão de Python:
+3.6.12 |Anaconda, Inc.| (default, Sep  9 2020, 00:29:25) [MSC v.1916 64 bit (AMD64)]
+Versão do numpy:
+1.18.1
+
+
+Modulos disponíveis:
+
+Please wait a moment while I gather a list of all available modules...
+
+Pacote01            _tracemalloc        heapq               select
+Pacote02            _warnings           hmac                selectors
+Pacote03            _weakref            html                setuptools
+__future__          _weakrefset         http                shelve
+_ast                _winapi             idlelib             shlex
+_asyncio            abc                 imaplib             shutil
+_bisect             aifc                imghdr              signal
+_blake2             antigravity         imp                 site
+_bootlocale         argparse            importlib           smtpd
+_bz2                array               inspect             smtplib
+_codecs             ast                 io                  sndhdr
+_codecs_cn          asynchat            ipaddress           socket
+_codecs_hk          asyncio             itertools           socketserver
+_codecs_iso2022     asyncore            json                sqlite3
+_codecs_jp          atexit              keyword             sre_compile
+_codecs_kr          audioop             lib2to3             sre_constants
+_codecs_tw          base64              linecache           sre_parse
+_collections        bdb                 locale              ssl
+_collections_abc    binascii            logging             stat
+_compat_pickle      binhex              lzma                statistics
+_compression        bisect              macpath             string
+_csv                builtins            macurl2path         stringprep
+_ctypes             bz2                 mailbox             struct
+_ctypes_test        cProfile            mailcap             subprocess
+_datetime           calendar            main03              sunau
+_decimal            certifi             marshal             symbol
+_distutils_findvs   cgi                 math                symtable
+_distutils_hack     cgitb               mimetypes           sys
+_dummy_thread       chunk               mmap                sysconfig
+_elementtree        cmath               modulefinder        tabnanny
+_functools          cmd                 msilib              tarfile
+_hashlib            code                msvcrt              telnetlib
+_heapq              codecs              multiprocessing     tempfile
+_imp                codeop              netrc               test
+_io                 collections         nntplib             textwrap
+_json               colorsys            nt                  this
+_locale             compileall          ntpath              threading
+_lsprof             concurrent          nturl2path          time
+_lzma               configparser        numbers             timeit
+_markupbase         contextlib          numpy               tkinter
+_md5                copy                opcode              token
+_msi                copyreg             operator            tokenize
+_multibytecodec     crypt               optparse            trace
+_multiprocessing    csv                 os                  traceback
+_opcode             ctypes              parser              tracemalloc
+_operator           curses              pathlib             tty
+_osx_support        datetime            pdb                 turtle
+_overlapped         dbm                 pickle              turtledemo
+_pickle             decimal             pickletools         types
+_pydecimal          difflib             pip                 typing
+_pyio               dis                 pipes               unicodedata
+_random             distutils           pkg_resources       unittest
+_sha1               doctest             pkgutil             urllib
+_sha256             dummy_threading     platform            uu
+_sha3               email               plistlib            uuid
+_sha512             encodings           poplib              venv
+_signal             ensurepip           posixpath           warnings
+_sitebuiltins       enum                pprint              wave
+_socket             errno               profile             weakref
+_sqlite3            faulthandler        pstats              webbrowser
+_sre                filecmp             pty                 wheel
+_ssl                fileinput           py_compile          wincertstore
+_stat               fnmatch             pyclbr              winreg
+_string             formatter           pydoc               winsound
+_strptime           fractions           pydoc_data          wsgiref
+_struct             ftplib              pyexpat             xdrlib
+_symtable           functools           queue               xml
+_testbuffer         gc                  quopri              xmlrpc
+_testcapi           genericpath         random              xxsubtype
+_testconsole        getopt              re                  zipapp
+_testimportmultiple getpass             reprlib             zipfile
+_testmultiphase     gettext             rlcompleter         zipimport
+_thread             glob                runpy               zlib
+_threading_local    gzip                sched               
+_tkinter            hashlib             secrets             
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+
+Process finished with exit code 0
+
+
